@@ -11,6 +11,7 @@
       <change type="MOVED" beforePath="$PROJECT_DIR$/test/functional/example/fixture/RealResponse.groovy" afterPath="$PROJECT_DIR$/test/functional/example/fixture/FakeTimeResponse.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Http-imposter-example.iml" afterPath="$PROJECT_DIR$/Http-imposter-example.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
@@ -87,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/unit/http/imposter/example/TimeControllerSpec.groovy" />
         <option value="$PROJECT_DIR$/test/functional/example/fixture/MockTimeResponse.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/http/imposter/example/TimeController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" />
@@ -103,6 +103,7 @@
         <option value="$PROJECT_DIR$/test/functional/example/fixture/FakeTimeResponse.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/http/imposter/example/FakeController.groovy" />
         <option value="$PROJECT_DIR$/test/functional/example/fixture/FakeTimeRequest.groovy" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -930,13 +931,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/unit/http/imposter/example/TimeControllerSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="454" selection-end="454" vertical-scroll-proportion="-11.086957">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/http/imposter/example/YahooTimeServiceSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="38" selection-start="1081" selection-end="1131" vertical-scroll-proportion="0.0">
@@ -963,13 +957,6 @@
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="58" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/example/fixture/FakeTimeResponse.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1004,35 +991,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/example/fixture/FakeTimeRequest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/example/TimeFunctionalSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="55" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.6826568">
-          <folding>
-            <element signature="e#17#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="84" selection-start="2889" selection-end="2889" vertical-scroll-proportion="1.2546126">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/http/imposter/example/YahooTimeService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#31#75#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1046,6 +1008,45 @@
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/http/imposter/example/FakeController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="0.18987341">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/example/fixture/FakeTimeResponse.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="26" selection-start="446" selection-end="446" vertical-scroll-proportion="0.20295203">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/example/fixture/FakeTimeRequest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="22" selection-start="303" selection-end="303" vertical-scroll-proportion="0.16605166">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/example/TimeFunctionalSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="55" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#17#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/http/imposter/example/YahooTimeService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="0.27675277">
+          <folding>
+            <element signature="e#31#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="45" selection-start="908" selection-end="908" vertical-scroll-proportion="0.22140221">
           <folding />
         </state>
       </provider>
