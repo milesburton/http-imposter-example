@@ -38,11 +38,14 @@ grails.project.dependency.resolution = {
         // runtime 'mysql:mysql-connector-java:5.1.16'
 
         compile "org.apache.httpcomponents:httpclient:4.1.2",
-                "net.xelnaga:http-imposter:1.0.120505.0103"
+                "net.xelnaga:http-imposter:1.0.120505.1424",
+                'joda-time:joda-time:2.1'
 
         test "org.codehaus.geb:geb-spock:0.7.0",
                 "org.seleniumhq.selenium:selenium-support:2.21.0",
-                "org.seleniumhq.selenium:selenium-firefox-driver:2.21.0"
+                "org.seleniumhq.selenium:selenium-firefox-driver:2.21.0",
+                "cglib:cglib-nodep:2.2.2",
+                "org.objenesis:objenesis:1.2"
     }
 
     plugins {

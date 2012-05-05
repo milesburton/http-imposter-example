@@ -10,7 +10,7 @@ class FakeController {
     private static final HttpImposter IMPOSTER = new HttpImposter(filter:  FILTER)
 
     def index() {
-        IMPOSTER.respond(request, response)
+        IMPOSTER.respond("${request.forwardURI}?${request.queryString}", request, response)
     }
 
     def reset() {

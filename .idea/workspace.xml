@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58eb73bd-7771-42e5-8dfb-4f4e0e68c1a8" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/integration/http/imposter/example/ImposterSpec.groovy" afterPath="$PROJECT_DIR$/test/functional/example/ImposterSpec.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/integration/http/imposter/example/fixture/RealRequest.groovy" afterPath="$PROJECT_DIR$/test/functional/example/fixture/RealRequest.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/integration/http/imposter/example/fixture/RealResponse.groovy" afterPath="$PROJECT_DIR$/test/functional/example/fixture/RealResponse.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/conf/FakeUrlMappings.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/example/TimeFunctionalSpec.groovy" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/http/imposter/example/RealController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/functional/example/ImposterSpec.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/http/imposter/example/RealControllerSpec.groovy" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/functional/example/fixture/RealRequest.groovy" afterPath="$PROJECT_DIR$/test/functional/example/fixture/FakeTimeRequest.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/functional/example/fixture/RealResponse.groovy" afterPath="$PROJECT_DIR$/test/functional/example/fixture/FakeTimeResponse.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Http-imposter-example.iml" afterPath="$PROJECT_DIR$/Http-imposter-example.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/http/imposter/example/FakeController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/http/imposter/example/FakeController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
     </list>
     <ignored path="http-imposter-example.iws" />
@@ -67,26 +74,7 @@
     <favorites_list name="http-imposter-example" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="72" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImposterSpec.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/functional/example/ImposterSpec.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="26" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.5904059">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -99,11 +87,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/integration/http/imposter/example/fixture/RealResponse.groovy" />
-        <option value="$PROJECT_DIR$/test/integration/http/imposter/example/ImposterSpec.groovy" />
-        <option value="$PROJECT_DIR$/test/functional/GebConfig.groovy" />
-        <option value="$PROJECT_DIR$/test/functional/example/ImposterSpec.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/http/imposter/example/TimeControllerSpec.groovy" />
+        <option value="$PROJECT_DIR$/test/functional/example/fixture/MockTimeResponse.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/http/imposter/example/TimeController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/FakeUrlmappings.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/http/imposter/example/YahooTimeService.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/http/imposter/example/YahooTimeServiceSpec.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/FakeUrlMappings.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/test/functional/example/fixture/MockTimeRequest.groovy" />
+        <option value="$PROJECT_DIR$/test/functional/example/TimeFunctionalSpec.groovy" />
+        <option value="$PROJECT_DIR$/test/functional/example/fixture/FakeTimeResponse.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/http/imposter/example/FakeController.groovy" />
+        <option value="$PROJECT_DIR$/test/functional/example/fixture/FakeTimeRequest.groovy" />
       </list>
     </option>
   </component>
@@ -139,22 +138,22 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="http-imposter-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="http-imposter-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -169,6 +168,34 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="http-imposter-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Grails User Library (Http-imposter-example-grailsPlugins)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="http-imposter-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Grails User Library (Http-imposter-example)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -192,6 +219,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,6 +356,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="http-imposter-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="http-imposter-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -352,57 +409,206 @@
               <option name="myItemId" value="http-imposter-example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="http-imposter-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="http-imposter-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="project.structure.side.proportion" value="0.0" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test/functional" />
     </key>
   </component>
-  <component name="RunManager" selected="Grails.test something()">
-    <configuration default="false" name="test something()" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
+  <component name="RunManager" selected="Grails.DEV">
+    <configuration default="false" name="TimeControllerSpec.display time" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="http.imposter.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="Http-imposter-example" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="test-app functional: example.ImposterSpec.test something -echoOut" />
-      <setting name="depsClasspath" value="true" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="http.imposter.example" />
+      <option name="MAIN_CLASS_NAME" value="http.imposter.example.TimeControllerSpec" />
+      <option name="METHOD_NAME" value="display time" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="http.imposter.example in Http-imposter-example" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="http.imposter.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Http-imposter-example" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="http.imposter.example" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TimeControllerSpec" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="http.imposter.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Http-imposter-example" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="http.imposter.example" />
+      <option name="MAIN_CLASS_NAME" value="http.imposter.example.TimeControllerSpec" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="YahooTimeServiceSpec" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="http.imposter.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Http-imposter-example" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="http.imposter.example" />
+      <option name="MAIN_CLASS_NAME" value="http.imposter.example.YahooTimeServiceSpec" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TimeFunctionalSpec.get current time" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Http-imposter-example" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="example" />
+      <option name="MAIN_CLASS_NAME" value="example.TimeFunctionalSpec" />
+      <option name="METHOD_NAME" value="get current time" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
-      <method>
-        <option name="Make" enabled="false" />
-      </method>
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="" />
+      <setting name="path" value="" />
       <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="true" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="true" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -421,13 +627,14 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
-      <setting name="path" value="" />
       <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="true" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="true" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -444,6 +651,24 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -473,24 +698,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -544,14 +751,27 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="false" name="Grails:http-imposter-example" type="GrailsRunConfigurationType" factoryName="Grails">
+    <configuration default="false" name="TEST" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="Http-imposter-example" />
-      <setting name="vmparams" value="" />
+      <setting name="vmparams" value="-Dgrails.env=TEST" />
       <setting name="cmdLine" value="run-app" />
       <setting name="depsClasspath" value="true" />
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowser" value="false" />
+      <MavenGeneralSettings>
+        <option name="checksumPolicy" value="FAIL" />
+        <option name="failureBehavior" value="FAST" />
+        <option name="localRepository" value="" />
+        <option name="mavenHome" value="" />
+        <option name="nonRecursive" value="false" />
+        <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
+        <option name="printErrorStackTraces" value="false" />
+        <option name="snapshotUpdatePolicy" value="ALWAYS_UPDATE" />
+        <option name="usePluginRegistry" value="false" />
+        <option name="userSettingsFile" value="" />
+        <option name="workOffline" value="false" />
+      </MavenGeneralSettings>
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
         <option name="TRANSPORT" value="0" />
@@ -564,9 +784,45 @@
         <option name="Make" enabled="false" />
       </method>
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Grails.Grails:http-imposter-example" />
-      <item index="1" class="java.lang.String" itemvalue="Grails.test something()" />
+    <configuration default="false" name="DEV" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="Http-imposter-example" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="true" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <MavenGeneralSettings>
+        <option name="checksumPolicy" value="FAIL" />
+        <option name="failureBehavior" value="FAST" />
+        <option name="localRepository" value="" />
+        <option name="mavenHome" value="" />
+        <option name="nonRecursive" value="false" />
+        <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
+        <option name="printErrorStackTraces" value="false" />
+        <option name="snapshotUpdatePolicy" value="ALWAYS_UPDATE" />
+        <option name="usePluginRegistry" value="false" />
+        <option name="userSettingsFile" value="" />
+        <option name="workOffline" value="false" />
+      </MavenGeneralSettings>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method>
+        <option name="Make" enabled="false" />
+      </method>
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Grails.TEST" />
+      <item index="1" class="java.lang.String" itemvalue="Grails.DEV" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TimeControllerSpec.display time" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.http.imposter.example in Http-imposter-example" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TimeControllerSpec" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.YahooTimeServiceSpec" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.TimeFunctionalSpec.get current time" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -584,7 +840,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1917" y="30" width="2566" height="1548" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -606,7 +862,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15366241" sideWeight="0.6001431" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11425159" sideWeight="0.6001431" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -674,58 +930,122 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/http/imposter/example/RealController.groovy">
+    <entry file="file://$PROJECT_DIR$/test/unit/http/imposter/example/TimeControllerSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="113" selection-end="142" vertical-scroll-proportion="-5.2173915" />
+        <state line="21" column="8" selection-start="454" selection-end="454" vertical-scroll-proportion="-11.086957">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/share/grails/2.0.3/src/grails-plugin-converters-2.0.3-sources.jar!/grails/converters/JSON.java">
+    <entry file="file://$PROJECT_DIR$/test/unit/http/imposter/example/YahooTimeServiceSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="0" selection-start="6114" selection-end="6114" vertical-scroll-proportion="0.0" />
+        <state line="38" column="38" selection-start="1081" selection-end="1131" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#31#57#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/share/grails/2.0.3/src/grails-plugin-converters-2.0.3-sources.jar!/org/codehaus/groovy/grails/web/converters/AbstractConverter.java">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/example/fixture/RealRequest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="244" selection-end="244" vertical-scroll-proportion="0.13172337" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/example/fixture/RealResponse.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="35" selection-start="589" selection-end="589" vertical-scroll-proportion="0.2963776" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/http/imposter/example/FakeController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="204" selection-end="204" vertical-scroll-proportion="0.10135135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="57" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.20526893" />
+        <state line="4" column="40" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/functional/GebConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="72" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.0">
+        <state line="40" column="58" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/example/ImposterSpec.groovy">
+    <entry file="file://$PROJECT_DIR$/test/functional/example/fixture/FakeTimeResponse.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="26" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.5904059">
+        <state line="15" column="26" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/spring/resources.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="110" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/FakeUrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.grails/ivy-cache/net.xelnaga/http-imposter/jars/http-imposter-1.0.120505.1424.jar!/net/xelnaga/httpimposter/HttpImposter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="-2.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/share/grails/2.0.3/src/grails-web-2.0.3-sources.jar!/org/codehaus/groovy/grails/plugins/web/api/CommonWebApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="58" selection-start="3733" selection-end="3733" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/example/fixture/FakeTimeRequest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="22" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/example/TimeFunctionalSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="55" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.6826568">
+          <folding>
+            <element signature="e#17#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="84" selection-start="2889" selection-end="2889" vertical-scroll-proportion="1.2546126">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/http/imposter/example/YahooTimeService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#31#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/http/imposter/example/TimeController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.15189873">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/http/imposter/example/FakeController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="0.18987341">
           <folding />
         </state>
       </provider>
@@ -737,8 +1057,8 @@
         <entry key="Http-imposter-example">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="-965711057" />
-              <option name="pluginDependenciesCrc" value="-1277705974" />
+              <option name="buildConfigCrc" value="555881415" />
+              <option name="pluginDependenciesCrc" value="-1906902884" />
               <option name="properties">
                 <map>
                   <entry key="grails.project.class.dir" value="target/classes" />

@@ -4,16 +4,14 @@ import net.xelnaga.httpimposter.model.ImposterRequest
 import com.popcornteam.restclient.header.ContentType
 import net.xelnaga.httpimposter.model.HttpHeader
 
-class RealRequest {
+class FakeTimeRequest {
 
-    static ImposterRequest withGetJsonRequest() {
+    static ImposterRequest asGet() {
 
         return new ImposterRequest(
-                uri: "/http-imposter-example/grails/fake/index.dispatch",
+                uri: "/http-imposter-example/fake/TimeService/V1/getTime?appid=test&output=json",
                 method: 'GET',
-                headers: [
-                        new HttpHeader('Accept', ContentType.APPLICATION_JSON)
-                ],
+                headers: [],
                 body: ''
         )
     }

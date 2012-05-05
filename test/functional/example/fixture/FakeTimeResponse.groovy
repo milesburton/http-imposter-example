@@ -7,16 +7,15 @@ import net.xelnaga.httpimposter.model.HttpHeader
 import grails.converters.JSON
 
 
-class RealResponse {
+class FakeTimeResponse {
 
-    static ImposterResponse withHelloJsonResponse() {
+    static ImposterResponse withTimeResponse(Long unixTime) {
 
         return new ImposterResponse(
                 status: SC_OK.value,
-                headers: [
-                        new HttpHeader('Content-Type', ContentType.APPLICATION_JSON),
-                ],
-                body: "{'message':'hello'}"
+                headers: [],
+                body: """{"Result":{"Timestamp":${unixTime}}}"""
+
         )
     }
 }

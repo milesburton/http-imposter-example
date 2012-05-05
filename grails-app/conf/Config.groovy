@@ -61,12 +61,35 @@ grails.hibernate.cache.queries = true
 
 // set per-environment serverURL stem for creating absolute links
 environments {
+
+
+
+    test {
+        endpoint {
+            yahooServicesBaseUri = 'http://localhost:8080/http-imposter-example/fake'
+        }
+
+        yahooApplicationId = "test"
+    }
+
     development {
         grails.logging.jul.usebridge = true
+
+        endpoint {
+            yahooServicesBaseUri = 'http://developer.yahooapis.com'
+        }
+
+        yahooApplicationId = '9XTodKzV34H5GZ0SgAkOycRad75Ach5h8s9c9Sx0qiQ3_ZGqlUtrhCSrlZuHUlyC1E88wvz94iTusuXMYMbI1Qf47Vubkqw'
     }
     production {
         grails.logging.jul.usebridge = false
-        // TODO: grails.serverURL = "http://www.changeme.com"
+        grails.serverURL = "http://http-imposter-example.milesburton.com"
+
+        endpoint {
+            yahooServicesBaseUri = 'http://developer.yahooapis.com'
+        }
+
+        yahooApplicationId = '9XTodKzV34H5GZ0SgAkOycRad75Ach5h8s9c9Sx0qiQ3_ZGqlUtrhCSrlZuHUlyC1E88wvz94iTusuXMYMbI1Qf47Vubkqw'
     }
 }
 
