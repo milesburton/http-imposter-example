@@ -14,6 +14,14 @@ class FakeController {
     }
 
     def reset() {
+
         IMPOSTER.reset()
+        render ''
+    }
+
+    def configure() {
+
+        IMPOSTER.configure(request)
+        render ''
     }
 }

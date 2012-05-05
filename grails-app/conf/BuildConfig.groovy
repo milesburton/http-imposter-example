@@ -12,7 +12,7 @@ grails.project.dependency.resolution = {
         // uncomment to disable ehcache
         // excludes 'ehcache'
     }
-    log "warn" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
+    log "info" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
     checksums true // Whether to verify checksums on resolve
 
     repositories {
@@ -38,7 +38,7 @@ grails.project.dependency.resolution = {
         // runtime 'mysql:mysql-connector-java:5.1.16'
 
         compile "org.apache.httpcomponents:httpclient:4.1.2",
-                "net.xelnaga:http-imposter:1.0.120503.2211"
+                "net.xelnaga:http-imposter:1.0.120505.0103"
     }
 
     plugins {
