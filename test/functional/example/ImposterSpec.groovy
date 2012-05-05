@@ -1,4 +1,4 @@
-package http.imposter.example
+package example
 
 import spock.lang.Specification
 import net.xelnaga.httpimposter.remote.HttpImposterRemote
@@ -6,12 +6,13 @@ import com.popcornteam.restclient.RestClient
 import org.apache.http.client.HttpClient
 import com.popcornteam.restclient.factory.HttpClientFactory
 import com.popcornteam.restclient.response.RestResponse
-import http.imposter.example.fixture.RealRequest
-import http.imposter.example.fixture.RealResponse
+import example.fixture.RealRequest
+import example.fixture.RealResponse
 import com.popcornteam.restclient.header.HttpHeader
+import geb.spock.GebSpec
 
 
-class ImposterSpec extends Specification {
+class ImposterSpec extends GebSpec {
 
 
     String baseUrl = "http://localhost:8080/http-imposter-example"

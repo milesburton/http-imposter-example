@@ -1,4 +1,4 @@
-package http.imposter.example.fixture
+package example.fixture
 
 import net.xelnaga.httpimposter.model.ImposterResponse
 import static org.apache.http.HttpStatus.*

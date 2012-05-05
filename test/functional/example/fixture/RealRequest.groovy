@@ -1,4 +1,4 @@
-package http.imposter.example.fixture
+package example.fixture
 
 import net.xelnaga.httpimposter.model.ImposterRequest
 import com.popcornteam.restclient.header.ContentType

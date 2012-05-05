@@ -39,6 +39,10 @@ grails.project.dependency.resolution = {
 
         compile "org.apache.httpcomponents:httpclient:4.1.2",
                 "net.xelnaga:http-imposter:1.0.120505.0103"
+
+        test "org.codehaus.geb:geb-spock:0.7.0",
+                "org.seleniumhq.selenium:selenium-support:2.21.0",
+                "org.seleniumhq.selenium:selenium-firefox-driver:2.21.0"
     }
 
     plugins {
@@ -53,6 +57,7 @@ grails.project.dependency.resolution = {
 
         build ":tomcat:$grailsVersion"
 
-        test ":spock:0.6-SNAPSHOT"
+        test ":spock:0.6",
+              ":geb:0.7.0"
     }
 }
